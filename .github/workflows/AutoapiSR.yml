@@ -2,13 +2,13 @@
 name: Auto_Api_SR
 
 on: 
-  release:
-    types: [published]
-  push:
-    tags:
-    - 'v*'
-    branches: 
-    - main
+  #release:
+  #  types: [published]
+  #push:
+  #  tags:
+  #  - 'v*'
+  #  branches: 
+  #  - main
   schedule:
     - cron: '7 1,5,8 * * 1-5'
   watch:
