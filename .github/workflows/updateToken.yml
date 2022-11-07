@@ -6,7 +6,7 @@ on:
   #  types: [published]
   #push:
   #  tags:
-    - 'v*'
+  #  - 'v*'
   #  branches: 
   #    - master
   schedule:
