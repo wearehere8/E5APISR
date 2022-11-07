@@ -8,7 +8,7 @@ on:
     tags:
     - 'v*'
     branches: 
-      - main
+    - main
   schedule:
     - cron: '7 1,5,8 * * 1-5'
   watch:
