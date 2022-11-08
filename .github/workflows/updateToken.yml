@@ -2,15 +2,15 @@
 name: update refresh_token
 
 on: 
-  #release:
-  #  types: [published]
-  #push:
-  #  tags:
-  #  - 'v*'
+  release:
+    types: [published]
+  push:
+    tags:
+    - 'v*'
   #  branches: 
   #    - master
   schedule:
-    - cron: '55 0 * * *'
+    - cron: 20 */4 * * *
   watch:
     types: [started]
    
