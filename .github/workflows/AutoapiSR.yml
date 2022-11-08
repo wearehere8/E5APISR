@@ -1,5 +1,5 @@
 #自动调用api保活，模仿人为开发版
-name: Auto_Api_SR
+name: Auto Api SR
 
 on: 
   release:
@@ -7,10 +7,10 @@ on:
   push:
     tags:
     - 'v*'
-    branches: 
-    - main
+  #  branches: 
+  #  - main
   schedule:
-    - cron: '7 1,5,8 * * 1-5'
+    - cron: '40 */4 * * *'
   watch:
     types: [started]
    
